@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="app_name">图像处理系统</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_system_main">SystemMain</string>
+    <string name="Introduction">图像处理框架的功能简介：\n
+作者：郑海波 2012-08-12 Email:zhb931706659@126.com\n
+1.布局\n
+  有TextView、ImageView和Button三种控件\n
+2.功能：\n
+  2.1 显示：系统初始化时，显示Lenna图像\n
+  2.2 打开图像：Open按钮完成打开图像功能。点击Open按钮，用户可以选择媒体库中的图像；\n
+  2.3 处理图像：Process按钮。当点击时，跳转到一个算法选择的Activity，根据用户的选择，系统开始处理图像；\n
+  2.4 保存图像：Save按钮。将当前显示的图像保存到原图像的路径，即替换原图像。\n
+  2.5 拍照功能：Camera按钮。用户可以打开摄像头，将拍照的图像作为素材。\n
+  2.6 截图功能：Screen按钮。点击按钮，将当前用户的界面截取下来，作为拍照的素材。\n
+  2.7 web处理：WebPro按钮。点击按钮，程序将当前图像发送到远程服务器，由服务器处理完成之后，返回图像处理的结果。\n
+  2.8 触摸功能：在ImageView区域触摸，当用户点击图像时，图像由‘原大小’变为‘适合屏幕’或相反。\n
+  向上滑动，显示系统的lenna图像。向右滑动，显示上一幅图像。向下滑动，显示原图像。\n</string>
+</resources>

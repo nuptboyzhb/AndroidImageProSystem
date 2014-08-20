@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="horizontal"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<TextView
+	        android:id="@+id/abouttext"
+	        android:layout_weight="1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:textColor="#0000FF"
+	        android:text="@string/Introduction" />
+	<ImageView android:id="@+id/photo1" 
+	    android:layout_weight="1"
+	    android:contentDescription="@string/app_name"
+	    android:src="@drawable/zhb_l"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"  />
+</LinearLayout>
